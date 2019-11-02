@@ -1,0 +1,341 @@
+@media screen and (min-width: 1000px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #content {
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        /*background-color: dimgrey;*/
+        resize: vertical;
+        overflow: auto;
+        background-color: black;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        padding-right: 1vw;
+    }
+
+    .food-category{
+        border-width: 0.5vw;
+        border-style: solid;
+        border-color: saddlebrown;
+        margin-bottom: 2vw;
+        width:100%;
+    }
+
+    .food-category-title{
+        border-bottom-width: 0.3vw;
+        border-bottom-color: gray;
+        border-style: solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 3vw;
+        height: 7vw;
+        line-height: 7vw;
+        font-size: 3vw;
+    }
+
+    #content .food-category:nth-child(1) .food-category-title{
+        background-image: url("./../images/pentru-inceput.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(2) .food-category-title{
+        background-image: url("./../images/mici.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(3) .food-category-title{
+        background-image: url("./../images/strudel.jfif");
+        background-size: inherit;
+    }
+
+    .food-category-title span{
+        background-color: black;
+        color: #dcac6a;
+        padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+        border-radius: 1vw;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.1vw;
+    }
+
+    .food-category-contents{
+        width:100%;
+    }
+    .food-category-contents tr{
+        height: 3vw;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .food-category-contents tr td{
+        border-bottom-width: 0.2vw;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+    }
+
+    .food-category-contents tr:last-child td{
+        border: 0;
+    }
+
+    .food-category-contents tr td:first-child{
+        width: 80%;
+        padding-left: 1vw;
+    }
+
+    .food-category-contents tr td:nth-child(2){
+        width:10%;
+        border-right: gray;
+        border-left: gray;
+        border-style: solid;
+        border-top: 0;
+        text-align: center;
+    }
+
+    .food-category-contents tr td:last-child{
+        width:10%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #content {
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        /*background-color: dimgrey;*/
+        resize: vertical;
+        overflow: auto;
+        background-color: black;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        padding-right: 1vw;
+    }
+
+    .food-category{
+        border-width: 0.5vw;
+        border-style: solid;
+        border-color: saddlebrown;
+        margin-bottom: 2vw;
+        width:100%;
+    }
+
+    .food-category-title{
+        border-bottom-width: 0.3vw;
+        border-bottom-color: gray;
+        border-style: solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 3vw;
+        height: 9vw;
+        line-height: 9vw;
+        font-size: 3vw;
+    }
+
+    #content .food-category:nth-child(1) .food-category-title{
+        background-image: url("./../images/pentru-inceput.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(2) .food-category-title{
+        background-image: url("./../images/mici.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(3) .food-category-title{
+        background-image: url("./../images/strudel.jfif");
+        background-size: inherit;
+    }
+
+    .food-category-title span{
+        background-color: black;
+        color: #dcac6a;
+        padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+        border-radius: 1vw;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.1vw;
+    }
+
+    .food-category-contents{
+        width:100%;
+    }
+    .food-category-contents tr{
+        height: 3vw;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 2vw;
+
+    }
+
+    .food-category-contents tr td{
+        border-bottom-width: 0.2vw;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+    }
+
+    .food-category-contents tr:last-child td{
+        border: 0;
+    }
+
+    .food-category-contents tr td:first-child{
+        width: 80%;
+        padding-left: 1vw;
+    }
+
+    .food-category-contents tr td:nth-child(2){
+        width:10%;
+        border-right: gray;
+        border-left: gray;
+        border-style: solid;
+        border-top: 0;
+        text-align: center;
+    }
+
+    .food-category-contents tr td:last-child{
+        width:10%;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 700px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #content {
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        /*background-color: dimgrey;*/
+        resize: vertical;
+        overflow: auto;
+        background-color: black;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        padding-right: 1vw;
+    }
+
+    .food-category{
+        border-width: 0.5vw;
+        border-style: solid;
+        border-color: saddlebrown;
+        margin-bottom: 2vw;
+        width:100%;
+    }
+
+    .food-category-title{
+        border-bottom-width: 0.3vw;
+        border-bottom-color: gray;
+        border-style: solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 3vw;
+        height: 12vw;
+        line-height: 12vw;
+        font-size: 3vw;
+    }
+
+    #content .food-category:nth-child(1) .food-category-title{
+        background-image: url("./../images/pentru-inceput.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(2) .food-category-title{
+        background-image: url("./../images/mici.jfif");
+        background-size: inherit;
+    }
+
+    #content .food-category:nth-child(3) .food-category-title{
+        background-image: url("./../images/strudel.jfif");
+        background-size: inherit;
+    }
+
+    .food-category-title span{
+        background-color: black;
+        color: #dcac6a;
+        padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+        border-radius: 1vw;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.1vw;
+    }
+
+    .food-category-contents{
+        width:100%;
+    }
+    .food-category-contents tr{
+        height: 3vw;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 2.5vw;
+
+    }
+
+    .food-category-contents tr td{
+        border-bottom-width: 0.2vw;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+    }
+
+    .food-category-contents tr:last-child td{
+        border: 0;
+    }
+
+    .food-category-contents tr td:first-child{
+        width: 80%;
+        padding-left: 1vw;
+    }
+
+    .food-category-contents tr td:nth-child(2){
+        width:10%;
+        border-right: gray;
+        border-left: gray;
+        border-style: solid;
+        border-top: 0;
+        text-align: center;
+    }
+
+    .food-category-contents tr td:last-child{
+        width:10%;
+        text-align: center;
+    }
+
+}

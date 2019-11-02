@@ -1,0 +1,213 @@
+@media screen and (min-height: 200px){
+
+    .btn{
+        padding: 0 0 0 0 !important;
+    }
+
+    #navbar{
+        height: 15vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: fixed;
+        background-color: black;
+        z-index: 1;
+    }
+
+    #navbar table{
+        border-spacing: 0;
+        margin: auto;
+        height: 15vh;
+        width: 60%;
+        text-align: center;
+
+    }
+
+    #navbar table td{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 15vh;
+        width: 25%;
+        color: #dcac6a;
+    }
+
+    #navbar span{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        font-size: 1.6vw;
+    }
+
+    #navbar a{
+        text-decoration: none;
+    }
+
+    #navbar img{
+        position: absolute;
+        margin: 0;
+        border: 0;
+        top: 1%;
+        left: 1px;
+        height: 98%;
+        width: 7.5%;
+
+    }
+    #navbar img:last-child{
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 92.4%;
+        right: 1px;
+
+    }
+
+    #dropdownMenuButton{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        background-color: black;
+        border: 0;
+        height: 15vh;
+        width: 100%;
+    }
+
+    .dropdown-toggle:before{
+        margin: 0 !important;
+        border: 0 !important;
+
+    }
+
+    .dropdown-toggle:after{
+        margin: 0 !important;
+        border: 0 !important;
+    }
+
+    .dropdown-item:hover{
+        background-color: black;
+    }
+
+    .dropdown-item span{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        /*background-color: black;*/
+        border: 0px;
+    }
+
+    #dropdown-menu{
+        background-color: black;
+        padding: 0;
+        margin: 0;
+
+    }
+    .dropdown-item{
+        z-index: 10;
+    }
+}
+
+@media screen and (max-height: 200px){
+
+    .btn{
+        padding: 0 0 0 0 !important;
+    }
+
+    #navbar{
+        height: 30px;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: fixed;
+        background-color: black;
+        z-index: 1;
+    }
+
+    #navbar table{
+        border-spacing: 0;
+        margin: auto;
+        height: 100%;
+        width: 60%;
+        text-align: center;
+
+    }
+
+    #navbar table td{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 100%;
+        width: 25%;
+        color: #dcac6a;
+    }
+
+    #navbar span{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        font-size: 1.6vw;
+    }
+
+    #navbar a{
+        text-decoration: none;
+    }
+
+    #navbar img{
+        position: absolute;
+        margin: 0;
+        border: 0;
+        top: 1%;
+        left: 1px;
+        height: 98%;
+        width: 7.5%;
+
+    }
+    #navbar img:last-child{
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 92.4%;
+        right: 1px;
+
+    }
+
+    #dropdownMenuButton{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        background-color: black;
+        border: 0;
+        height: 30px;
+        width: 100%;
+    }
+
+    .dropdown-item:hover{
+        background-color: black;
+    }
+
+    .dropdown-item span{
+        color: #dcac6a;
+        font-family: "Arial Black", serif, bold;
+        /*background-color: black;*/
+        border: 0px;
+    }
+
+    #dropdown-menu{
+        background-color: black;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .dropdown-toggle:before{
+        margin: 0 !important;
+        border: 0 !important;
+
+    }
+
+    .dropdown-toggle:after{
+        margin: 0 !important;
+        border: 0 !important;
+    }
+
+    .dropdown-item{
+        z-index: 10;
+    }
+
+}

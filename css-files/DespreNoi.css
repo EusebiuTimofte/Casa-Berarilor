@@ -1,0 +1,195 @@
+@media screen and (min-width: 1000px) {
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        /*min-width: 400px;*/
+        /*min-height: 200px;*/
+        /*overflow: scroll;*/
+        /*min-height: 400px;*/
+        /*min-font-size: small;*/
+    }
+
+    #content{
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        background-image: url("./../images/background.jpg");
+        background-size: cover;
+        resize: vertical;
+        overflow: auto;
+        padding-left: 22%;
+        padding-right: 22%;
+        padding-top:2%;
+        padding-bottom: 1%;
+
+    }
+
+    #content>div:first-child{
+        background-color: black;
+        opacity: 0.9;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 0;
+        /*transform: translate(-50%,0);*/
+        /*margin-bottom: 1%;*/
+        /*padding-bottom: 1%;*/
+        /*height: 92%;*/
+        /*width: 50%;*/
+    }
+    #content>div:first-child h2{
+        color: #dcac6a;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*top: 1%;*/
+        font-family: "Times New Roman", serif, bold;
+        font-size: 3vw;
+    }
+
+    #content>div:first-child p{
+        color: white;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*right: 10%;*/
+        /*top: 12%;*/
+        font-family: "Times New Roman", serif;
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        /*min-width: 400px;*/
+        /*min-height: 200px;*/
+        /*overflow: scroll;*/
+        /*min-height: 400px;*/
+        /*min-font-size: small;*/
+    }
+
+    #content{
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        background-image: url("./../images/background.jpg");
+        background-size: cover;
+        resize: vertical;
+        overflow: auto;
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top:2%;
+        padding-bottom: 1%;
+
+    }
+
+    #content>div:first-child{
+        background-color: black;
+        opacity: 0.9;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 0;
+        /*transform: translate(-50%,0);*/
+        /*margin-bottom: 1%;*/
+        /*padding-bottom: 1%;*/
+        /*height: 92%;*/
+        /*width: 50%;*/
+    }
+    #content>div:first-child h2{
+        color: #dcac6a;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*top: 1%;*/
+        font-family: "Times New Roman", serif, bold;
+        font-size: 3vw;
+    }
+
+    #content>div:first-child p{
+        color: white;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*right: 10%;*/
+        /*top: 12%;*/
+        font-family: "Times New Roman", serif;
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+
+        /*overflow: scroll;*/
+        /*min-height: 400px;*/
+        /*min-font-size: small;*/
+    }
+
+    #content{
+        position: relative;
+        top: 15vh;
+        left: 0;
+        height: 85vh;
+        width: 100vw;
+        background-image: url("./../images/background.jpg");
+        background-size: cover;
+        resize: vertical;
+        overflow: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top:2%;
+        padding-bottom: 1%;
+
+    }
+
+    #content>div:first-child{
+        background-color: black;
+        opacity: 0.9;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 0;
+        /*transform: translate(-50%,0);*/
+        /*margin-bottom: 1%;*/
+        /*padding-bottom: 1%;*/
+        /*height: 92%;*/
+        /*width: 50%;*/
+    }
+    #content>div:first-child h2{
+        color: #dcac6a;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*top: 1%;*/
+        font-family: "Times New Roman", serif, bold;
+        font-size: 3vw;
+    }
+
+    #content>div:first-child p{
+        color: white;
+        opacity: 1;
+        /*position: absolute;*/
+        /*left: 10%;*/
+        /*right: 10%;*/
+        /*top: 12%;*/
+        font-family: "Times New Roman", serif;
+        font-size: 2.1vw;
+    }
+}
+
+
+
