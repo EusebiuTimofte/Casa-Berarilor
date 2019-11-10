@@ -27,7 +27,20 @@
 
     }
 
-    #content>div:first-child{
+    #fbicon{
+        position: fixed;
+        z-index: 10;
+        width: 5vw;
+        height: 5vw;
+        top: 20vw;
+        left: 90vw;
+    }
+
+    #fbicon:hover{
+        animation: rotation 2s infinite linear;
+    }
+
+    #content > div{
         background-color: black;
         opacity: 0.9;
         margin: 0;
@@ -40,7 +53,7 @@
         /*height: 92%;*/
         /*width: 50%;*/
     }
-    #content>div:first-child h2{
+    #content > div h2{
         color: #dcac6a;
         opacity: 1;
         /*position: absolute;*/
@@ -50,7 +63,7 @@
         font-size: 3vw;
     }
 
-    #content>div:first-child p{
+    #content > div p{
         color: white;
         opacity: 1;
         /*position: absolute;*/
@@ -60,6 +73,8 @@
         font-family: "Times New Roman", serif;
         font-size: 1.2vw;
     }
+
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 500px){
@@ -92,7 +107,20 @@
 
     }
 
-    #content>div:first-child{
+    #fbicon{
+        position: fixed;
+        z-index: 10;
+        width: 5vw;
+        height: 5vw;
+        top: 20vw;
+        left: 90vw;
+    }
+
+    #fbicon:hover{
+        animation: rotation 2s infinite linear;
+    }
+
+    #content > div{
         background-color: black;
         opacity: 0.9;
         margin: 0;
@@ -105,7 +133,7 @@
         /*height: 92%;*/
         /*width: 50%;*/
     }
-    #content>div:first-child h2{
+    #content > div h2{
         color: #dcac6a;
         opacity: 1;
         /*position: absolute;*/
@@ -115,7 +143,7 @@
         font-size: 3vw;
     }
 
-    #content>div:first-child p{
+    #content > div p{
         color: white;
         opacity: 1;
         /*position: absolute;*/
@@ -123,7 +151,7 @@
         /*right: 10%;*/
         /*top: 12%;*/
         font-family: "Times New Roman", serif;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 
 }
@@ -138,6 +166,8 @@
         /*min-height: 400px;*/
         /*min-font-size: small;*/
     }
+
+
 
     #content{
         position: relative;
@@ -156,10 +186,22 @@
 
     }
 
-    #content>div:first-child{
+    #fbicon{
+        position: fixed;
+        z-index: 10;
+        width: 7vw;
+        height: 7vw;
+        left: 1%;
+    }
+
+    #fbicon:hover{
+        animation: rotation 2s infinite linear;
+    }
+
+    #content > div{
         background-color: black;
         opacity: 0.9;
-        margin: 0;
+        margin-top: 2vw;
         padding-left: 2%;
         padding-right: 2%;
         border: 0;
@@ -169,7 +211,7 @@
         /*height: 92%;*/
         /*width: 50%;*/
     }
-    #content>div:first-child h2{
+    #content > div h2{
         color: #dcac6a;
         opacity: 1;
         /*position: absolute;*/
@@ -179,7 +221,7 @@
         font-size: 5vw;
     }
 
-    #content>div:first-child p{
+    #content > div p{
         color: white;
         opacity: 1;
         /*position: absolute;*/
@@ -192,4 +234,12 @@
 }
 
 
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
 
