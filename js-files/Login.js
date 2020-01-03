@@ -63,7 +63,7 @@ function Formular(username, password){
             localStorage.setItem('password', this.password);
         }
         //go to DespreNoi.html page
-        location.href = './../html-pages/DespreNoi.html';
+        location.href = './../index.html';
     }
 }
 //create Formular object
